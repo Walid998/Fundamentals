@@ -1,0 +1,19 @@
+# Ignore js files
+node_modules
+dist
+
+# Ignore CodeBlocks project files
+*.cbp
+*.depend
+*.layout
+*.layout.bak
+*.lrf
+*.autosave
+
+# Ignore CodeBlocks generated files
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+

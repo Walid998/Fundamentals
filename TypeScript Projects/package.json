@@ -1,0 +1,35 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "This repo has the fundamental topics of the programming like Data Structures, Alogrithms, OOP and more.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "export NODE_ENV=development && ts-node-dev ./src",
+    "build-serve": "tsc & npm run serve",
+    "start": "export NODE_ENV=development && tsc && node ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walid998/Fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walid998/Fundamentals/issues"
+  },
+  "homepage": "https://github.com/Walid998/Fundamentals#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "dotenv": "^16.3.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
